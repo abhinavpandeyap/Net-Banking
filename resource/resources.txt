@@ -1,1 +1,40 @@
-bfjsdf
+# Net-Banking Application
+
+# Document
+System Requirement Specification Document
+
+# Title 
+System Requirement Specification for a Net-banking Application
+
+# Team 
+
+
+
+
+# Objective
+
+
+
+
+# Scope
+
+
+
+
+# Definitions
+
+
+
+
+# Functional Requirements
+
+
+
+
+
+# Non-Functional Requirements
+
+
+
+
+
