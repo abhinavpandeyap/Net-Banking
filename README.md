@@ -1,7 +1,2 @@
-# Solution
-Information Management Solution
-# Desc
-Code Hunters !!!!
-
-# Saurabh 
-this is my first Commit
+# Objective
+Our objective is to create a Net-Banking Application.
