@@ -78,7 +78,7 @@ The Core Management Team will be able to view and manage the bank staff details 
 
 # Non-Functional Requirements
 
-Security:
+## Security:
 
 Registered user will be allowed to do transaction only after authentication.
 
@@ -97,7 +97,7 @@ Sensitive data (while login and transferring funds) will be encrypted across com
 
 Uses proper firewall to protect servers from outside fishing and vulnerable attacks.
 
-Reliability:
+## Reliability:
 
 The system will backup bank data on regular basis and recover in short time duration to keep system Operational.
 
@@ -105,7 +105,7 @@ Continuous updates are maintained, continuous-Administration is done to keep sys
 
 During peak hours system will maintain same user experience by managing load balancing.
 
-Availability:
+## Availability:
 
 The System will be 24* 7 available with 99.999% response rate.
 
