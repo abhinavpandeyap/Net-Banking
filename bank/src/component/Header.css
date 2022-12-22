@@ -1,0 +1,16 @@
+
+#mydiv1{
+    
+    border: 2px solid black;
+    font-style: Arial,Bold,black;
+    background-color: rgb(213, 89, 89);
+    
+}
+#chit{
+    border: 2px solid black;
+    height: 95px;
+    width: 140px;
+    float: left;
+    margin-right: 100px;
+}
+
