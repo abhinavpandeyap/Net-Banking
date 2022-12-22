@@ -7,7 +7,7 @@ System Requirement Specification Document
 System Requirement Specification for a Net-banking Application
 
 # Team 
-Chief Mentor, System Analyst, Designer, Developer (Front-End & Bak-End), Database Administrator, Tester, Stakeholders
+Chief Mentor, System Analyst, Designer, Developer (Front-End & Back-End), Database Administrator, Tester, Stakeholders
 
 # Objective
 The Net-Banking Application is a Web Application to provide complete solution for a Bank to manage the Details of its Employees and the Users and the Transactions between any two account holders and gives the facility to the user to register himself as an Account Holder in the Bank.
