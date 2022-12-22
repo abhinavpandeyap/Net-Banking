@@ -1,117 +1,70 @@
-# Net-Banking Application
+# Getting Started with Create React App
 
-# Document
-System Requirement Specification Document
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Title 
-System Requirement Specification for a Net-banking Application
+## Available Scripts
 
-# Team 
-Chief Mentor, System Analyst, Designer, Developer (Front-End & Back-End), Database Administrator, Tester, Stakeholders
+In the project directory, you can run:
 
-# Objective
-The Net-Banking Application is a Web Application to provide complete solution for a Bank to manage the Details of its Employees and the Users and the Transactions between any two account holders and gives the facility to the user to register himself as an Account Holder in the Bank.
+### `npm start`
 
-It also stores all the transaction details and can be viewed by the Account Holders as well as the Bank.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# Scope
-This System allows the user to create their own account and manage it as the Account holder in the Bank and gives the facility to the bank to verify and manage the Accounts of each Account Holder.
+### `npm test`
 
-It will be able to show daily transactional record to the Core Management of the Bank.   
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-It also stores all the transaction details for each and every Account Holders as well as the new Users (who are willing to register in the bank) and it could be viewed by the users and the Bank (Staff and Management).
+### `npm run build`
 
-The Money Transfer would be hassle-free and convenient for the Account Holders as it will be a Real-Time Money Transfer system. It will be reverted if any issue occurred.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The Account holders can only view their data only and the Bank Staffs will be able to view the details of All the registered account holders.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-The Core Management Team will have access to view and manage all the Account Holder details and also view the Daily Reports.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-# Definitions
-AH: Account Holders
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-TD: Transaction Details
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-MD: Money Deposit
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-MW: Money Withdrawal
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-BS: Bank Staff
+## Learn More
 
-BM: Bank Management
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-AT: Account Type
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-DR: Daily Reports
+### Code Splitting
 
-Dashboard: Personalized information presented using BI techniques such as grid, score card, graphs. 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-# Functional Requirements
-There will be four different perspectives and functionalities for the four different users which are: -
+### Analyzing the Bundle Size
 
-Core Management Team of the Bank.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Bank Staffs.
+### Making a Progressive Web App
 
-Account Holders.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-New Users.
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-New users can apply for the registration in the bank of any Account Type (By filling their details) and it will be approved by the Bank Staff after complete Verification. Then the user will be registered as the Account Holder in the bank.
+### Deployment
 
-New users can track their Application Status and Account Holders can view their personal dashboard which will contain information like – Personal Details, Account Details and Transaction Details.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-To update the Account Holder details the AH can contact to the bank staff and Bank Staffs can update the Account Holder Details as per the Banks guidelines.
+### `npm run build` fails to minify
 
-Any Account Holder will be able to delete his account permanently by contacting the Bank Staff after the complete verification.
-
-The bank staff can view their personal details all the account details of the Account Holders and the applications of new users.
-
-The bank staff will be able to update the details of the Account Holders if AH wants after the Verification.
-
-The Core Management Team will have access to view and manage all the Account Holder details and also view the Daily Reports.
-
-The Core Management Team will be able to view and manage the bank staff details will have access to remove them from the current staff list.  
-
-# Non-Functional Requirements
-
-## Security:
-
-Registered user will be allowed to do transaction only after authentication.
-
-Transfer of fund will be done after verifying OTP (One Time Password) for particular registered customer.
-
-System will provide access to content and operations using role-based security (Authorization) and (Permission based on roles).
-
-System will automatically log of all stakeholders after some time due to inactiveness.
-
-System will block operations for inactive stakeholder and redirect for authentication.
-
-System will internally maintain secure communication channel between Servers
-(Web servers, App servers, database server)
-
-Sensitive data (while login and transferring funds) will be encrypted across communication.
-
-Uses proper firewall to protect servers from outside fishing and vulnerable attacks.
-
-## Reliability:
-
-The system will backup bank data on regular basis and recover in short time duration to keep system Operational.
-
-Continuous updates are maintained, continuous-Administration is done to keep system operational. 
-
-During peak hours system will maintain same user experience by managing load balancing.
-
-## Availability:
-
-The System will be 24* 7 available with 99.999% response rate.
-
-
-
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
