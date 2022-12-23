@@ -10,7 +10,7 @@ System Requirement Specification for a Net-banking Application
 Chief Mentor, System Analyst, Designer, Developer (Front-End & Bak-End), Database Administrator, Tester, Stakeholders
 
 # Objective
-The Net-Banking Application is a Web Application to provide complete solution for a Bank to manage the Details of its 
+The Net-Banking Application is a Web Application to provide complete solution for a Bank to manage the Details of it's
 Employees and the Users and the Transactions between any two account holders and gives the facility to the user to register
 himself as an Account Holder in the Bank.
 It also stores all the transaction details and can be viewed by the Account Holders as well as the Bank.
@@ -19,7 +19,7 @@ It also stores all the transaction details and can be viewed by the Account Hold
 # Scope
 This System allows the user to create their own account and manage it as the Account holder in the Bank and gives the facility to the bank to verify and manage the Accounts of each Account Holder.
 
-It will be able to show daily transactional record to the Core Management of the Bank.   
+It will be able to show daily transactional record to the Core Management team of the Bank.   
 
 It also stores all the transaction details for each and every Account Holders as well as the new Users (who are willing to register in the bank) and it could be viewed by the users and the Bank (Staff and Management).
 
@@ -35,9 +35,9 @@ AH: Account Holders
 
 TD: Transaction Details
 
-MD: Money Deposit
+AD: Amount Deposit
 
-MW: Money Withdrawal
+AW: Amount Withdrawal
 
 BS: Bank Staff
 
