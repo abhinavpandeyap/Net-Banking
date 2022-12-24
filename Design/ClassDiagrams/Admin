@@ -13,6 +13,4 @@ public class Admin{
     public void appproveAccount(){}
 
     public void getCustomer(){}
-
-    public void getReport(){}
 }
