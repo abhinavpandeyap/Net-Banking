@@ -1,0 +1,17 @@
+public class AccountHolder{
+      private int acc_no;
+      private Customer acc_holder_details;
+      private AccountType acc_type;
+      private double acc_balance;
+      private String password;
+
+      public boolean login(){}
+
+      public boolean deposit(){}
+
+      public boolean transfer(){}
+
+      public double getBalance(){}
+
+
+}

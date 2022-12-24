@@ -1,0 +1,18 @@
+public class Admin{
+    private int admin_id;
+    private String admin_name;
+    private String email;
+    private String password;
+
+    public boolean login(){}
+    
+    public boolean getAccount(){}
+    
+    public void editAccount(){}
+
+    public void appproveAccount(){}
+
+    public void getCustomer(){}
+
+    public void getReport(){}
+}
