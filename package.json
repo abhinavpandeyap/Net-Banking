@@ -1,0 +1,19 @@
+{
+  "name": "net-banking",
+  "version": "1.0.0",
+  "description": "A Net Banking Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavpandeyap/Net-Banking.git"
+  },
+  "author": "Abhinav Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavpandeyap/Net-Banking/issues"
+  },
+  "homepage": "https://github.com/abhinavpandeyap/Net-Banking#readme"
+}

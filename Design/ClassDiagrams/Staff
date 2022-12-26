@@ -1,0 +1,19 @@
+public class Staff{
+    private int staff_id;
+    private String staff_name;
+    private String address;
+    private String email;
+    private String password; 
+    private LocalDate hiredate;
+
+    public boolean login(){}
+    
+    public boolean getAccount(){}
+    
+    public void editAccount(){}
+
+    public void appproveAccount(){}
+
+    public void getCustomer(){}
+    
+}

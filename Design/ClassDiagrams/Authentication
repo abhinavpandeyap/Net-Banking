@@ -1,0 +1,6 @@
+public class Authentication{
+    private String email;
+    private String password;
+    
+    public boolean validate(){}
+}

@@ -1,0 +1,7 @@
+public class Transaction{
+    private int transaction_id;
+    private TransactionType transaction_type;
+    private AccountHolder fromAccount;
+    private AccountHolder toAccount;
+
+}
