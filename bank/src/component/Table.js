@@ -6,29 +6,29 @@ const Table=()=>{
   <thead>
     <tr>
       <th scope="col">Id</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Name</th>
+      <th scope="col">Investment</th>
+      <th scope="col">Double Due</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>Abhinav</td>
+      <td>7000</td>
+      <td>10-Days</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>Rahul</td>
+      <td>8900</td>
+      <td>15-Days</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <td>John Jagdale</td>
+      <td>15000</td>
+      <td>19-Days</td>
     </tr>
   </tbody>
 </table>
