@@ -54,7 +54,7 @@ Dashboard: Personalized information presented using BI techniques such as grid, 
 
 There will be four different perspectives and functionalities for the four different users which are: -
 
-Core Management Team of the Bank.
+Admin.
 
 Bank Staffs.
 
@@ -74,9 +74,9 @@ The bank staff can view their personal details all the account details of the Ac
 
 The bank staff will be able to update the details of the Account Holders if AH wants after the Verification.
 
-The Core Management Team will have access to view and manage all the Account Holder details and also view the Daily Reports.
+The Admin will have access to view and manage all the Account Holder details and also view the Daily Reports.
 
-The Core Management Team will be able to view and manage the bank staff details will have access to remove them from the current staff list.  
+The  Admin will be able to view and manage the bank staff details will have access to remove them from the current staff list.  
 
 # Non-Functional Requirements
 
