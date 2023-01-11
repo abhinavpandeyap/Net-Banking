@@ -4,9 +4,6 @@ const cryptojs = require('crypto-js')
 const db = require('../db')
 const util = require('../util')
 
-router.get('/', (req,resp)=> {  
-    resp.send("hi")
-})
 router.post('/signup', (req,resp)=> {
     
     const {name , addr, email, password, mobile, status} = req.body
