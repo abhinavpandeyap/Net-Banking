@@ -6,12 +6,12 @@ const util = require('../util')
 
 router.post('/signup', (req,resp)=> {
     
-    const {name , addr, email, password, mobile, status} = req.body
+    const {name , addr, email, password, mobile} = req.body
 
     const encrpPass = cryptojs.MD5(password)
 
-    const query = `insert into customer(name, addr, email, password, mobile, status)
-                    values('${name}', '${addr}', '${email}', '${encrpPass}', '${mobile}', ${status})`
+    const query = `insert into customer(name, addr, email, password, mobile)
+                    values('${name}', '${addr}', '${email}', '${encrpPass}', '${mobile}')`
 
     db.query(query, (error,result)=>{
         resp.send(util.createResult(error, result))

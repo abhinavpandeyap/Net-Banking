@@ -7,7 +7,8 @@ const pool = mysql.createPool({
     database: 'netbanking',
     waitForConnections: true,
     connectionLimit: 10,
-    queueLimit: 0
+    queueLimit: 0,
+    multipleStatements:true
   })
 
   module.exports = pool

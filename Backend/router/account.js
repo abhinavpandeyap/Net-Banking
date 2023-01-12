@@ -11,7 +11,7 @@ router.post("/signin", (req,resp)=>{
 
     const query  = `select a.accNo, a.custid 
                     from account a inner join customer c on a.${custid} = c.${custid}
-                    where c.password = '${encrpPass}'`
+                    where c.password = '${encrpPass}' and status=1`
 
     db.query(query, (error,result)=>{
         resp.send(util.createResult(error,result))
@@ -46,14 +46,13 @@ router.put('/deposit', (req,resp)=>{
 
 router.put('/transfer', (req,resp)=>{
     const {saccNo, raccNo, amount} = req.body
-    const query = `update account set balance = balance - ${amount} where accNo = ${saccNo}`
-    const query1 = `update account set balance = balance + ${amount} where accNo = ${raccNo}`
+    var query = `update account set balance = balance - ${amount} where accNo = ${saccNo};`
+    query+= `update account set balance = balance + ${amount} where accNo = ${raccNo};`
+    query+=`update transaction set trantype='transfer'`
     db.query(query, (error,result) => {
         resp.send(util.createResult(error,result))
     })
-    db.query(query1, (error,result) => {
-        resp.send(util.createResult(error,result))
-    })
+   
 })
 
 module.exports = router
